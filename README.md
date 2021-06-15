@@ -12,22 +12,28 @@ You can download the code from the repo. (file is named as final_code.ino)
 
 # Some hardware and output images
 
-After giving the power supply and uploading the code to the Arduino Board, “Enter password” message appears. 
+- After giving the power supply and uploading the code to the Arduino Board, “Enter password” message appears. 
+
 ![image](https://user-images.githubusercontent.com/57268153/122006024-f361d280-cdd3-11eb-981d-2ada4b302263.png)
 
-While entering the password, it appears in ** format, to maintain the privacy on display.
+- While entering the password, it appears in ** format, to maintain the privacy on display.
+
 ![image](https://user-images.githubusercontent.com/57268153/122006062-01175800-cdd4-11eb-82ca-de715b9552c1.png)
 
-After entering the correct password with correct taps we get the message “Access Granted” “Welcome” and as we observe the servo motor has moved by 90 degrees. That means door has opened.
+- After entering the correct password with correct taps we get the message “Access Granted” “Welcome” and as we observe the servo motor has moved by 90 degrees. That means door has opened.
+
 ![image](https://user-images.githubusercontent.com/57268153/122006099-0ffe0a80-cdd4-11eb-9afc-14fafc153eeb.png)
 
-Relocking message:	
+- Relocking message:	
+
 ![image](https://user-images.githubusercontent.com/57268153/122006126-1be9cc80-cdd4-11eb-8129-c0df25fcbc3a.png)
 
-After a wrong tap, buzzer buzzes and LCD displays “Code Wrong”.
+- After a wrong tap, buzzer buzzes and LCD displays “Code Wrong”.
+
 ![image](https://user-images.githubusercontent.com/57268153/122006168-26a46180-cdd4-11eb-92b5-c38e1beb0e0a.png)
 
-After maximum number (3) of wrong taps the buzzer buzzes for 5 seconds and LCD displays “Wait for 5 seconds”, “Access denied” after that.
+- After maximum number (3) of wrong taps the buzzer buzzes for 5 seconds and LCD displays “Wait for 5 seconds”, “Access denied” after that.
+
 ![image](https://user-images.githubusercontent.com/57268153/122006245-3ae85e80-cdd4-11eb-816d-c47ab474aa1c.png)
 
 ![image](https://user-images.githubusercontent.com/57268153/122006308-4c316b00-cdd4-11eb-97c8-a988bcd50627.png)
